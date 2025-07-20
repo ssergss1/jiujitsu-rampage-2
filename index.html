@@ -9,9 +9,6 @@
   <!-- Telegram Mini App SDK -->
   <script src="https://telegram.org/js/telegram-web-app.js?58"></script>
 
-  <!-- Kaboom.js 3000 — исправленное подключение -->
-  <script src="https://cdn.jsdelivr.net/npm/kaboom@3000/dist/kaboom.js"></script>
-
   <!-- Стили -->
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -20,8 +17,7 @@
   <div id="game"></div>
   <button id="start-btn" hidden>НАЧАТЬ ИГРУ</button>
 
-  <!-- Основной код игры -->
- <script src="game.js"></script>
-
-</body> 
+  <!-- Подключаем игровой код как ES-модуль -->
+  <script type="module" src="game.js"></script>
+</body>
 </html>

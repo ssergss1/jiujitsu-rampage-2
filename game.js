@@ -1,4 +1,6 @@
 // --- Инициализация ----------------------------------------------------------
+import kaboom from "https://cdn.jsdelivr.net/npm/kaboom@3000/dist/kaboom.mjs";
+
 kaboom({
   width:360,
   height:640,
