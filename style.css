@@ -1,0 +1,10 @@
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+body{overflow:hidden;background:#000;font-family:'Press Start 2P',cursive;}
+#game{width:100vw;height:100vh;}
+#start-btn{
+  position:absolute;left:50%;bottom:18%;transform:translateX(-50%);
+  padding:14px 28px;border:none;border-radius:12px;
+  background:#ff3355;color:#fff;font-size:1.1rem;cursor:pointer;
+  box-shadow:0 6px 0 #c0002a;
+}
+#start-btn:active{transform:translate(-50%,2px);box-shadow:0 3px 0 #c0002a;}
