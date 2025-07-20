@@ -1,14 +1,15 @@
-// --- Инициализация ----------------------------------------------------------
 import kaboom from "https://cdn.jsdelivr.net/npm/kaboom@3000/dist/kaboom.mjs";
 
+// --- Инициализация ----------------------------------------------------------
 kaboom({
-  width:360,
-  height:640,
-  canvas:document.querySelector("#game"),
-  background:[0,0,0],
-  scale:1,
-  crisp:true,
+  width: 360,
+  height: 640,
+  canvas: document.querySelector("#game"),
+  background: [0, 0, 0],
+  scale: 1,
+  crisp: true,
 });
+
 
 const TG = window.Telegram?.WebApp;
 TG?.onEvent?.("themeChanged", applyTheme);
